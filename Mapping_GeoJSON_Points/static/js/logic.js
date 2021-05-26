@@ -65,5 +65,9 @@ L.geoJson(data).addTo(map);
 //       console.log(layer);
 //       layer.bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3> " + feature.properties.city + " , " + feature.properties.country + "</h3>");
 //     }
+<<<<<<< Updated upstream
 //   }).addTo(map);
 
+=======
+//   }).addTo(map);
+>>>>>>> Stashed changes
