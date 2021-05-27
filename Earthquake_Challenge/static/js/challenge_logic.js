@@ -146,11 +146,11 @@ legend.onAdd = function() {
  let tectonicPlates = d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
     // Add color and fill to make it stand out
     L.geoJson(data,  {
-      color: "blue",
+      color: "red",
       weight: 1,
-      fillColor: "yellow"})
+      fillColor: "purple"})
      
-      .addTo(tectonicPlates);
+      .addTo(allTectonics);
   });
   tectonicPlates.addTo(map)
 });
